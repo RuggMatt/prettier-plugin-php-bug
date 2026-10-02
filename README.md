@@ -5,6 +5,14 @@ expression when a full ternary is followed by a shorthand ternary (`?:`, also
 known as the Elvis operator). This changes valid PHP into an expression that
 PHP rejects.
 
+## Run
+
+```
+npm i
+npx prettier --write .
+php src/index.php
+```
+
 ## Expected
 
 The following should remain as is.
